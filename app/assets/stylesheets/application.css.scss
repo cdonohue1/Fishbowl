@@ -18,6 +18,13 @@
  body {
   font-family: 'Open Sans', sans-serif;
  }
+ ul {
+  list-style-type: none;
+}
+.bold{
+font-weight: bolder;
+font-weight: 900;
+}
  .font-title {
   color:#04518c;
   text-align: center;
@@ -35,13 +42,34 @@
     margin-top: .5em;
 }
 .top-number{
-  font-style: bold;
+  font-weight: bold;
   font-size: 20px;
   margin-top: 1em;
 }
+
 @media screen and (max-width: 520px) {
   .top-number {
     /*margin-right: 1.1em;*/
       text-decoration: underline;
   }
+}
+/*form styling*/
+form {
+  background-color: lightgrey;
+}
+form input [type="text"]{
+  border-radius: 10px;
+}
+form select {
+  border-radius: 10px;
+}
+hr {
+  border-color: tomato;
+  border-width: .2em;
+}
+a.button.radius.small-12.columns {
+  background-color: tomato;
+}
+button.radius, .button.radius {
+border-radius: 10px;
 }
