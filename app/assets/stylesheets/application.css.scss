@@ -15,7 +15,7 @@
  *= require foundation_and_overrides
 
  */
- body {
+ body, footer {
   font-family: 'Open Sans', sans-serif;
  }
  ul {
@@ -34,7 +34,7 @@ margin-left: .6em;
 color:#04518c;
 text-align: center;
 font-size: 30px;
-margin:50px 0 50px;
+margin:25px 0 50px;
 
 }
  .left {
@@ -64,6 +64,7 @@ margin:50px 0 50px;
 }
 /*form styling*/
 form {
+  padding: 0 .5em;
   margin-right: .1em;
   margin-left: .1em;
   background-color: lightgrey;
@@ -78,6 +79,10 @@ form select {
   border-radius: 10px;
 }
 hr {
+  margin-bottom: 0;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
   border-color: #eb1c24;
   border-width: .2em;
 }
@@ -88,3 +93,4 @@ a.button.radius.small-12.columns {
 button.radius, .button.radius {
 border-radius: 10px;
 }
+footer {text-align: center;}
