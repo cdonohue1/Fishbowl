@@ -20,18 +20,23 @@
  }
  ul {
   list-style-type: none;
+  margin:.3em;
+}
+.laptop {
+  margin: 0 .3em;
 }
 .bold{
 font-weight: bolder;
 font-weight: 900;
+margin-left: .6em;
 }
- .font-title {
-  color:#04518c;
-  text-align: center;
-  font-size: 30px;
-  margin:50px 0 50px;
+.font-title {
+color:#04518c;
+text-align: center;
+font-size: 30px;
+margin:50px 0 50px;
 
- }
+}
  .left {
   float: left; 
 }
@@ -46,6 +51,10 @@ font-weight: 900;
   font-size: 20px;
   margin-top: 1em;
 }
+.ul-title {
+  margin: 0 .3em;
+  font-size: 1.2em;
+}
 
 @media screen and (max-width: 520px) {
   .top-number {
@@ -55,20 +64,26 @@ font-weight: 900;
 }
 /*form styling*/
 form {
+  margin-right: .1em;
+  margin-left: .1em;
   background-color: lightgrey;
 }
-form input [type="text"]{
-  border-radius: 10px;
+.form_title {
+  font-size: 1.6em;
+}
+input[type="text"] {
+border-radius: 10px;
 }
 form select {
   border-radius: 10px;
 }
 hr {
-  border-color: tomato;
+  border-color: #eb1c24;
   border-width: .2em;
 }
 a.button.radius.small-12.columns {
-  background-color: tomato;
+  background-color: #eb1c24;
+  font-size: 1.4rem;
 }
 button.radius, .button.radius {
 border-radius: 10px;
